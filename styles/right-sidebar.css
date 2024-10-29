@@ -1,0 +1,112 @@
+.rightside-container {
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 380px;
+}
+
+.right-content-container {
+  width: 75%;
+  margin-left: 30px;
+  margin-top: 35px;
+}
+
+.profile-pic3 {
+  height: 45px;
+  width: 45px;
+  border-radius: 22.5px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.my-account {
+  display: flex;
+  align-items: center;
+}
+
+.my-account-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.account-details {
+  margin-left: 10px;
+  line-height: 18px
+}
+
+.account-name {
+  font-size: 13.5px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.username {
+  color: rgb(139, 139, 139);
+  font-size: 13.5px;
+  cursor: pointer;
+}
+
+.switch {
+  font-size: 11.5px;
+  color: rgb(63, 169, 255);
+  cursor: pointer;
+}
+
+.headlines {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 28px;
+}
+
+.suggested {
+  font-size: 13.5px;
+  font-weight: 600;
+  color: rgb(151, 151, 151);
+}
+
+.seeall {
+  font-size: 11.5px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.follow-suggestions {
+  margin-top: 20px;
+}
+
+.username2 {
+  color: rgb(139, 139, 139);
+  font-size: 11.5px;
+}
+
+.suggested-accounts {
+  margin-bottom: 18px;
+}
+
+a {
+  color: rgb(102, 102, 102);
+  text-decoration: none;
+  font-size: 11.5px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.language:hover {
+  text-decoration: none;
+}
+
+.links {
+  width: 280px;
+  margin-top: 40px;
+}
+
+.copyright {
+  color: rgb(102, 102, 102);
+  font-size: 12px;
+  margin-top: 20px;
+}

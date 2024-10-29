@@ -1,0 +1,34 @@
+body {
+ padding: 0;
+ margin: 0;
+ background-color: black;
+ font-family: Roboto;
+ color: white;
+ padding-bottom: 500px;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+}
+
+/* Target the scrollbar */
+::-webkit-scrollbar {
+  width: 15px; /* Width of the scrollbar */
+}
+
+/* Track (background of the scrollbar) */
+::-webkit-scrollbar-track {
+  background: #555; /* Color of the track */
+}
+
+/* Handle (thumb of the scrollbar) */
+::-webkit-scrollbar-thumb {
+  
+  background: #707070; /* Color of the thumb */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #979797;/* Darker color on hover */
+}

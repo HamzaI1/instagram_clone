@@ -1,0 +1,62 @@
+.left-sidebar {
+  width: 244px;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  border-right: 1px solid rgb(36, 36, 36);
+}
+
+.instagram-logo {
+  font-family: "Marck Script", cursive;
+  font-size: 27px;
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  margin: 30px 25px;
+  cursor: pointer;
+}
+
+.icon-name-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 5px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.icon-name-container:hover {
+  background-color: rgba(41, 41, 41, 0.521);
+}
+
+.left-sidebar-icon {
+  height: 27px;
+  width: 27px;
+}
+
+.profile-pic {
+  height: 30px;
+  width: 30px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.icon-name {
+  margin-left: 12px;
+  font-size: 15.5px;
+}
+
+.icon-more {
+  margin-top: 15px;
+}
+
+.name-home {
+  font-weight: bold;
+}
+
+.instagram-icon {
+  display: none;
+}
